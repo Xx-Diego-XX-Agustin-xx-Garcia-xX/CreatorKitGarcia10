@@ -18940,8 +18940,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Get chickens for a grade.
   desc: 
-  questInProgressConversation: {fileID: 0}
-  questCompletedConversation: {fileID: 0}
+  questInProgressConversation: {fileID: 1431316429}
+  questCompletedConversation: {fileID: 1431316428}
   spawnMode: 0
   enableOnQuestStart:
   - {fileID: 1111999121}
@@ -19124,6 +19124,26 @@ PrefabInstance:
       propertyPath: items.Array.data[2].audio
       value: 
       objectReference: {fileID: 8300000, guid: ceab515649a979349b80953d34564ffa, type: 3}
+    - target: {fileID: 353955888, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
+      propertyPath: items.Array.data[0].options.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 353955888, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
+      propertyPath: items.Array.data[0].options.Array.data[0].text
+      value: Do you have a 2nd quest for our grade?
+      objectReference: {fileID: 0}
+    - target: {fileID: 353955888, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
+      propertyPath: items.Array.data[0].options.Array.data[1].text
+      value: Do we really need that grade? I'm tired.
+      objectReference: {fileID: 0}
+    - target: {fileID: 353955888, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
+      propertyPath: items.Array.data[0].options.Array.data[0].targetId
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 353955888, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
+      propertyPath: items.Array.data[0].options.Array.data[1].targetId
+      value: 2.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596522, guid: 74b5c6b26f0fc4028b9aac1a7a36767d,
         type: 3}
       propertyPath: m_LocalPosition.x
